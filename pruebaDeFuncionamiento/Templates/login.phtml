@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<?php require 'Templates/header.phtml' ?>
+
+<div>
+    <h1>Inicia sesion:</h1>
+    <form method="POST" action="login">
+        <div class="form-login">
+            <label for="email">Email</label>
+            <input type="email" required class="form-control" id="email" name="email">
+        </div>
+        <div class="form-login">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Entrar</button>
+    </form>
+</div>
+
+<?php require 'Templates/footer.phtml' ?>
+
+</html>
